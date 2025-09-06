@@ -13,6 +13,7 @@
 </head>
 <body>
 
+    <!-- Landing Page -->
     <div id="landing-page">
         <div class="landing-content">
             <div class="circle-bg"></div>
@@ -21,8 +22,10 @@
         </div>
     </div>
 
+    <!-- Main Content -->
     <div id="main-content">
 
+        <!-- About Me -->
         <section id="about" class="content-section" data-aos="fade-up">
             <div class="text-block">
                 <h2 class="section-title">About Me</h2>
@@ -38,10 +41,15 @@
             </div>
         </section>
 
+        <!-- Education Timeline -->
         <section id="education" class="content-section" data-aos="fade-up" data-aos-delay="200">
-            <div class="text-block">
-                <h2 class="section-title">Education</h2>
-                <div class="education-entry-container">
+            <div class="timeline-container">
+
+                <!-- Timeline vertical line -->
+                <div class="timeline-line"></div>
+
+                <!-- Education Entry 1 -->
+                <div class="timeline-entry left">
                     <p class="education-date"><strong>2022 – 2025</strong></p>
                     <div class="education-details">
                         <p class="education-entry-main">
@@ -52,9 +60,60 @@
                         <p>Affiliated to Calicut University</p>
                     </div>
                 </div>
+
+                <!-- Education Entry 2 -->
+                <div class="timeline-entry right">
+                    <p class="education-date"><strong>2025 – Present</strong></p>
+                    <div class="education-details">
+                        <p class="education-entry-main">
+                            <i class="fa-solid fa-graduation-cap edu-icon"></i>
+                            <strong>AI & ML / Jr. Telecom Data Analyst (Course)</strong>
+                        </p>
+                        <p>Skill Development Centre, GVHSS Pudukad</p>
+                    </div>
+                </div>
+
+                <!-- Industrial Visit -->
+                <div class="timeline-entry left">
+                    <p class="education-date"><strong>02.09.2025</strong></p>
+                    <div class="education-details">
+                        <p class="education-entry-main">
+                            <i class="fa-solid fa-industry edu-icon"></i>
+                            <strong>Industrial Visit</strong>
+                        </p>
+                        <p>ATEES Industrial Training PVT. LTD</p>
+                    </div>
+                </div>
+
             </div>
         </section>
 
+        <!-- Seminar / Skill Presentation -->
+        <section id="seminar" class="content-section" data-aos="fade-up" data-aos-delay="200">
+            <div class="text-block">
+                <h2 class="section-title">Seminar / Skill Presentation</h2>
+                <p><strong>Topic:</strong> Pandas</p>
+                <p>
+                    Presented a seminar on Pandas in front of my class, covering data structures, data cleaning, and basic data exploration.  
+                    This was part of a class activity where each student presented their chosen topic.
+                </p>
+            </div>
+        </section>
+
+        <!-- Expertise / Skills -->
+        <section id="expertise" class="content-section" data-aos="fade-up" data-aos-delay="200">
+            <div class="text-block">
+                <h2 class="section-title">Expertise / Skills</h2>
+                <div class="skills-container">
+                    <span class="skill-badge">Python (Pandas, NumPy, Seaborn, Matplotlib)</span>
+                    <span class="skill-badge">Machine Learning & AI</span>
+                    <span class="skill-badge">Data Analysis & Visualization</span>
+                    <span class="skill-badge">Arduino & Electronics</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
         <section id="projects" class="content-section" data-aos="fade-up" data-aos-delay="200">
             <div class="text-block">
                 <h2 class="section-title">Projects</h2>
@@ -76,7 +135,8 @@
                 </div>
             </div>
         </section>
-        
+
+        <!-- Contact -->
         <section id="contact" class="content-section" data-aos="fade-up" data-aos-delay="200">
             <div class="text-block">
                 <h2 class="section-title">Contact Me</h2>
@@ -100,9 +160,10 @@
                     <img src="images/icons/location.png" alt="Location Icon" class="contact-icon">
                     Meloor, Chalakudy, Thrissur, Kerala
                 </div>
-                <p class="thank-you">Thank you!</p>
             </div>
+            <p class="thank-you">Thank you!</p>
         </section>
+
     </div>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

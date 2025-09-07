@@ -28,6 +28,7 @@
         <nav class="navbar">
             <a href="#about">About</a>
             <a href="#education">Education</a>
+            <a href="#activities">Extra Curricular</a> <!-- ✅ New link -->
             <a href="#expertise">Skills</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
@@ -48,65 +49,82 @@
                 <img src="images/profile.jpg" alt="Sooraj VS Profile Picture" class="section-image">
             </div>
         </section>
+                                    <!-- EDUCATION -->
+<section id="education" class="content-section" data-aos="fade-up" data-aos-delay="200">
+  <h2 class="section-title full-width">Education</h2>
+  <div class="timeline-container">
 
-        <!-- EDUCATION -->
-        <section id="education" class="content-section" data-aos="fade-up" data-aos-delay="200">
-            <h2 class="section-title full-width">Education</h2>
-            <div class="timeline-container">
-                <div class="timeline-line"></div>
+    <!-- Entry 1 -->
+    <div class="timeline-entry">
+      <div class="timeline-date">
+        <span>2022 – 2025</span>
+      </div>
+      <div class="timeline-content">
+        <p class="education-entry-main">
+          <i class="fa-solid fa-graduation-cap edu-icon"></i>
+          <strong>B.Sc. Electronics</strong>
+        </p>
+        <p>Prajyoti Niketan College, Pudukad, Thrissur, Kerala</p>
+        <p>Affiliated to Calicut University</p>
+      </div>
+    </div>
 
-                <div class="timeline-entry">
-                    <div class="timeline-item">
-                        <p class="education-date"><strong>2022 – 2025</strong></p>
-                        <div class="education-details">
-                            <p class="education-entry-main">
-                                <i class="fa-solid fa-graduation-cap edu-icon"></i>
-                                <strong>B.Sc. Electronics</strong>
-                            </p>
-                            <p>Prajyoti Niketan College, Pudukad, Thrissur, Kerala</p>
-                            <p>Affiliated to Calicut University</p>
-                        </div>
-                    </div>
-                </div>
+    <!-- Entry 2 -->
+    <div class="timeline-entry">
+      <div class="timeline-date">
+        <span>2025 – Present</span>
+      </div>
+      <div class="timeline-content">
+        <p class="education-entry-main">
+          <i class="fa-solid fa-graduation-cap edu-icon"></i>
+          <strong>AI & ML / Jr. Telecom Data Analyst (Course)</strong>
+        </p>
+        <p>Skill Development Centre, GVHSS Pudukad</p>
+      </div>
+    </div>
 
-                <div class="timeline-entry">
-                    <div class="timeline-item">
-                        <p class="education-date"><strong>2025 – Present</strong></p>
-                        <div class="education-details">
-                            <p class="education-entry-main">
-                                <i class="fa-solid fa-graduation-cap edu-icon"></i>
-                                <strong>AI & ML / Jr. Telecom Data Analyst (Course)</strong>
-                            </p>
-                            <p>Skill Development Centre, GVHSS Pudukad</p>
-                        </div>
-                    </div>
-                </div>
+  </div>
+</section>
+        
 
-                <div class="timeline-entry">
-                    <div class="timeline-item">
-                        <p class="education-date"><strong>02.09.2025</strong></p>
-                        <div class="education-details">
-                            <p class="education-entry-main">
-                                <i class="fa-solid fa-industry edu-icon"></i>
-                                <strong>Industrial Visit</strong>
-                            </p>
-                            <p>ATEES Industrial Training PVT. LTD</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
-        <!-- SEMINAR / PRESENTATION -->
-        <section id="seminar" class="content-section" data-aos="fade-up" data-aos-delay="200">
-            <div class="text-block">
-                <h2 class="section-title">Accomplishments & Presentations</h2>
-                <p><strong>Topic:</strong> Pandas</p>
-                <p>
-                   Presented an engaging session on Python’s Pandas library, covering data structures, data cleaning, and basic data analysis. The session included hands-on activities where students practiced Pandas exercises on their own computers, reinforcing learning through practical examples.
-                </p>
-            </div>
-        </section>
+       <!-- EXTRA CURRICULAR ACTIVITIES -->
+<section id="activities" class="content-section" data-aos="fade-up" data-aos-delay="200">
+  <h2 class="section-title full-width">Extra Curricular Activities</h2>
+  <div class="activities-container">
+
+    <!-- Activity 1 -->
+    <div class="activity-entry">
+      <div class="activity-icon">
+        <i class="fa-solid fa-industry"></i>
+      </div>
+      <div class="activity-content">
+        <h3>Industrial Visit</h3>
+        <p><strong>ATEES Industrial Training Pvt. Ltd</strong></p>
+        <p><small>Date: 02.09.2025</small></p>
+        <p>Attended an excellent interactive session conducted by industry 
+        professionals, which provided insights into career pathways..</p>
+      </div>
+    </div>
+
+    <!-- Activity 2 -->
+    <div class="activity-entry">
+      <div class="activity-icon">
+        <i class="fa-solid fa-chalkboard-teacher"></i>
+      </div>
+      <div class="activity-content">
+        <h3>Class Presentation</h3>
+         <p>Topic: <strong>Introduction to Pandas (Python Data Analysis Library)</strong></p>
+         <p>Delivered a seminar session for peers, introducing Pandas concept such as 
+        DataFrames. Demonstrated live code experiments for hands-on learning 
+        and encouraged interactive participation from students.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+               
 
         <!-- EXPERTISE / SKILLS -->
         <section id="expertise" class="content-section" data-aos="fade-up" data-aos-delay="200">
@@ -145,7 +163,7 @@
                 <div class="project-entry">
                     <p class="project-title"><i class="fa-brands fa-python project-icon"></i> Sales Data Analysis</p>
                     <p class="project-desc">
-                        A comprehensive data analysis project using Python ,Seaborn to analyze a retail sales dataset. It covers data cleaning, exploratory data analysis, and creating visualizations to uncover key business insights.
+                        A comprehensive data analysis project using Python to analyze a retail sales dataset. It covers data cleaning, exploratory data analysis, and creating visualizations to uncover key business insights.
                         <a href="https://github.com/S00RAJVS/sales-analysis-python" target="_blank"><i class="fa-brands fa-github project-github"></i> View Project</a>
                     </p>
                 </div>

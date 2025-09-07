@@ -17,7 +17,7 @@ This portfolio is designed to highlight:
 ---
 
 ## 🛠️ Tech Stack  
-- **Frontend**: HTML5, CSS3, JavaScript  
+- **Frontend**: HTML, CSS, JavaScript  
 - **Styling**: CSS Flexbox/Grid, Responsive Design  
 - **Hosting**: GitHub Pages  
 

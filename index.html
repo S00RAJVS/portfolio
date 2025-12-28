@@ -8,169 +8,168 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Parisienne&family=Lato:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13t6yqR68E7zF9z7Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
-    <!-- LANDING PAGE -->
-    <div id="landing-page">
-        <div class="landing-content">
-            <div class="circle-bg"></div>
-            <h1 id="portfolio-text">PORTFOLIO</h1>
-            <p id="name-text">By Sooraj VS</p>
+<!-- LANDING PAGE -->
+<div id="landing-page">
+    <div class="landing-content">
+        <div class="circle-bg"></div>
+        <h1 id="portfolio-text">PORTFOLIO</h1>
+        <p id="name-text">By Sooraj VS</p>
+    </div>
+</div>
+
+<!-- MAIN CONTENT -->
+<div id="main-content">
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#projects">Projects</a>
+    <a href="#activities">Extra Curricular</a>
+    <a href="#expertise">Skills</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- ABOUT -->
+<section id="about" class="content-section" data-aos="fade-up">
+    <div class="text-block">
+        <h2 class="section-title">About Me</h2>
+        <p class="greeting">Hi, I am Sooraj VS</p>
+        <p>
+            I am an enthusiastic learner exploring <strong>Artificial Intelligence, Machine Learning, and Python programming</strong>.
+            I enjoy solving problems with code and building small projects to grow my skills.
+            I am eager to learn, improve, and contribute to meaningful projects in technology.
+        </p>
+    </div>
+    <div class="image-block">
+        <img src="images/profile.jpg" alt="Sooraj VS Profile Picture" class="section-image">
+    </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education" class="content-section" data-aos="fade-up" data-aos-delay="200">
+    <h2 class="section-title full-width">Education</h2>
+    <div class="timeline-container">
+
+        <div class="timeline-entry">
+            <div class="timeline-date"><span>2022 – 2025</span></div>
+            <div class="timeline-content">
+                <p class="education-entry-main">
+                    <i class="fa-solid fa-graduation-cap edu-icon"></i>
+                    <strong>B.Sc. Electronics</strong>
+                </p>
+                <p>Prajyoti Niketan College, Pudukad, Thrissur, Kerala</p>
+                <p>Affiliated to Calicut University</p>
+            </div>
+        </div>
+
+        <div class="timeline-entry">
+            <div class="timeline-date"><span>2025 – Present</span></div>
+            <div class="timeline-content">
+                <p class="education-entry-main">
+                    <i class="fa-solid fa-graduation-cap edu-icon"></i>
+                    <strong>AI & ML Jr. Telecom Data Analyst (Course)</strong>
+                </p>
+                <p>Skill Development Centre, GVHSS Pudukad</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="content-section" data-aos="fade-up" data-aos-delay="200">
+    <div class="text-block">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="project-entry">
+            <p class="project-title"><i class="fa-brands fa-python project-icon"></i> Weather Data Fetching</p>
+            <p class="project-desc">
+                A Python script that fetches live weather data from APIs.
+                <a href="https://github.com/S00RAJVS/Weather-script" target="_blank">
+                    <i class="fa-brands fa-github project-github"></i> View Project
+                </a>
+            </p>
+        </div>
+
+        <div class="project-entry">
+            <p class="project-title"><i class="fa-brands fa-python project-icon"></i> Simple Data Cleaning</p>
+            <p class="project-desc">
+                Beginner-friendly data cleaning using Pandas.
+                <a href="https://github.com/S00RAJVS/Basic-data-cleaning-using-Python-and-Pandas." target="_blank">
+                    <i class="fa-brands fa-github project-github"></i> View Project
+                </a>
+            </p>
+        </div>
+
+        <div class="project-entry">
+            <p class="project-title"><i class="fa-brands fa-python project-icon"></i> Sales Data Analysis</p>
+            <p class="project-desc">
+                Retail sales analysis with visual insights.
+                <a href="https://github.com/S00RAJVS/sales-analysis-python" target="_blank">
+                    <i class="fa-brands fa-github project-github"></i> View Project
+                </a>
+            </p>
         </div>
     </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main-content">
-        <!-- NAVBAR -->
-        <nav class="navbar">
-            <a href="#about">About</a>
-            <a href="#education">Education</a>
-            <a href="#activities">Extra Curricular</a> <!-- ✅ New link -->
-            <a href="#expertise">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
-
-        <!-- ABOUT ME -->
-        <section id="about" class="content-section" data-aos="fade-up">
-            <div class="text-block">
-                <h2 class="section-title">About Me</h2>
-                <p class="greeting">Hi, I am Sooraj VS</p>
-                <p>
-                    I am an enthusiastic learner exploring <strong>Artificial Intelligence, Machine Learning, and Python programming</strong>.
-                    I enjoy solving problems with code and building small projects to grow my skills.
-                    I am eager to learn, improve, and contribute to meaningful projects in technology.
-                </p>
-            </div>
-            <div class="image-block">
-                <img src="images/profile.jpg" alt="Sooraj VS Profile Picture" class="section-image">
-            </div>
-        </section>
-                                    <!-- EDUCATION -->
-<section id="education" class="content-section" data-aos="fade-up" data-aos-delay="200">
-  <h2 class="section-title full-width">Education</h2>
-  <div class="timeline-container">
-
-    <!-- Entry 1 -->
-    <div class="timeline-entry">
-      <div class="timeline-date">
-        <span>2022 – 2025</span>
-      </div>
-      <div class="timeline-content">
-        <p class="education-entry-main">
-          <i class="fa-solid fa-graduation-cap edu-icon"></i>
-          <strong>B.Sc. Electronics</strong>
-        </p>
-        <p>Prajyoti Niketan College, Pudukad, Thrissur, Kerala</p>
-        <p>Affiliated to Calicut University</p>
-      </div>
-    </div>
-
-    <!-- Entry 2 -->
-    <div class="timeline-entry">
-      <div class="timeline-date">
-        <span>2025 – Present</span>
-      </div>
-      <div class="timeline-content">
-        <p class="education-entry-main">
-          <i class="fa-solid fa-graduation-cap edu-icon"></i>
-          <strong>AI & ML Jr. Telecom Data Analyst (Course)</strong>
-        </p>
-        <p>Skill Development Centre, GVHSS Pudukad</p>
-      </div>
-    </div>
-
-  </div>
 </section>
-        
 
-
-       <!-- EXTRA CURRICULAR ACTIVITIES -->
+<!-- ACTIVITIES -->
 <section id="activities" class="content-section" data-aos="fade-up" data-aos-delay="200">
-  <h2 class="section-title full-width">Extra Curricular Activities</h2>
-  <div class="activities-container">
+    <h2 class="section-title full-width">Extra Curricular Activities</h2>
 
-    <!-- Activity 1 -->
-    <div class="activity-entry">
-      <div class="activity-icon">
-        <i class="fa-solid fa-industry"></i>
-      </div>
-      <div class="activity-content">
-        <h3>Industrial Visit</h3>
-        <p><strong>ATEES Industrial Training Pvt. Ltd</strong></p>
-        <p><small>Date: 02.09.2025</small></p>
-        <p>Attended an excellent interactive session conducted by industry 
-        professionals, which provided insights into career pathways..</p>
-      </div>
+    <div class="activities-container">
+        <div class="activity-entry">
+            <div class="activity-icon"><i class="fa-solid fa-industry"></i></div>
+            <div class="activity-content">
+                <h3>Industrial Visit</h3>
+                <p><strong>ATEES Industrial Training Pvt. Ltd</strong></p>
+                <p><small>Date: 02.09.2025</small></p>
+                <p>Interactive session with industry professionals.</p>
+            </div>
+        </div>
+
+        <div class="activity-entry">
+            <div class="activity-icon"><i class="fa-solid fa-chalkboard-teacher"></i></div>
+            <div class="activity-content">
+                <h3>Class Presentation</h3>
+                <p><strong>Introduction to Pandas</strong></p>
+                <p>Hands-on seminar with live demonstrations.</p>
+            </div>
+        </div>
+
+        <div class="activity-entry">
+            <div class="activity-icon"> <i class="fa-brands fa-google"></i></div>
+            <div class="activity-content">
+              <h3>Google 5-Day Intensive Internship</h3>
+              <p><strong>Google (Virtual Program)</strong></p>
+              <p><small>Duration: 5 Days</small></p>
+              <p>Successfully completed an intensive short-term internship program conducted by Google.  </p>
+            </div>
+        </div>
+
     </div>
-
-    <!-- Activity 2 -->
-    <div class="activity-entry">
-      <div class="activity-icon">
-        <i class="fa-solid fa-chalkboard-teacher"></i>
-      </div>
-      <div class="activity-content">
-        <h3>Class Presentation</h3>
-         <p>Topic: <strong>Introduction to Pandas (Python Data Analysis Library)</strong></p>
-         <p>Delivered a seminar session for peers, introducing Pandas concept such as 
-        DataFrames. Demonstrated live code experiments for hands-on learning 
-        and encouraged interactive participation from students.</p>
-      </div>
-    </div>
-
-  </div>
 </section>
 
-               
+<!-- EXPERTISE -->
+<section id="expertise" class="content-section" data-aos="fade-up" data-aos-delay="200">
+    <div class="text-block">
+        <h2 class="section-title">Expertise / Skills</h2>
+        <div class="skills-container">
+            <span class="skill-badge">Python (Pandas, NumPy, Matplotlib)</span>
+            <span class="skill-badge">Machine Learning & AI</span>
+            <span class="skill-badge">Data Analysis</span>
+            <span class="skill-badge">Arduino & Electronics</span>
+        </div>
+    </div>
+</section>
 
-        <!-- EXPERTISE / SKILLS -->
-        <section id="expertise" class="content-section" data-aos="fade-up" data-aos-delay="200">
-            <div class="text-block">
-                <h2 class="section-title">Expertise / Skills</h2>
-                <div class="skills-container">
-                    <span class="skill-badge">Python (Pandas, NumPy, Seaborn, Matplotlib)</span>
-                    <span class="skill-badge">Machine Learning & AI</span>
-                    <span class="skill-badge">Data Analysis & Visualization</span>
-                    <span class="skill-badge">Arduino & Electronics</span>
-                </div>
-            </div>
-        </section>
-
-        <!-- PROJECTS -->
-        <section id="projects" class="content-section" data-aos="fade-up" data-aos-delay="200">
-            <div class="text-block">
-                <h2 class="section-title">Projects</h2>
-
-                <div class="project-entry">
-                    <p class="project-title"><i class="fa-brands fa-python project-icon"></i> Weather Data Fetching</p>
-                    <p class="project-desc">
-                        A Python script that fetches live weather data from APIs and displays it in a clean format.
-                        <a href="https://github.com/S00RAJVS/Weather-script" target="_blank"><i class="fa-brands fa-github project-github"></i> View Project</a>
-                    </p>
-                </div>
-
-                <div class="project-entry">
-                    <p class="project-title"><i class="fa-brands fa-python project-icon"></i> Simple Data Cleaning</p>
-                    <p class="project-desc">
-                        A beginner-friendly Python project to clean and preprocess datasets using Pandas, handle missing values, and basic exploratory analysis.
-                        <a href="https://github.com/S00RAJVS/Basic-data-cleaning-using-Python-and-Pandas." target="_blank"><i class="fa-brands fa-github project-github"></i> View Project</a>
-                    </p>
-                </div>
-                
-                <div class="project-entry">
-                    <p class="project-title"><i class="fa-brands fa-python project-icon"></i> Sales Data Analysis</p>
-                    <p class="project-desc">
-                        A comprehensive data analysis project using Python to analyze a retail sales dataset. It covers data cleaning, exploratory data analysis, and creating visualizations to uncover key business insights.
-                        <a href="https://github.com/S00RAJVS/sales-analysis-python" target="_blank"><i class="fa-brands fa-github project-github"></i> View Project</a>
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <!-- CONTACT ME -->
+<!-- CONTACT ME -->
         <section id="contact" class="content-section" data-aos="fade-up" data-aos-delay="200">
             <div class="text-block">
                 <h2 class="section-title">Contact Me</h2>
@@ -194,16 +193,14 @@
                 </div>
             </div>
         </section>
+<!-- THANK YOU -->
+<section id="thank-you" class="content-section" data-aos="fade-up">
+    <p class="thank-you">Thank you!</p>
+</section>
 
-        <!-- THANK YOU SECTION -->
-        <section id="thank-you" class="content-section" data-aos="fade-up" data-aos-delay="200">
-                  <p class="thank-you">Thank you!</p>
-        </section>
+</div>
 
-
-    </div> <!-- closes main-content -->
-
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
